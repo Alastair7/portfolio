@@ -1,11 +1,15 @@
 import { useEffect, useState } from "react";
 
+import { useScreenSize } from "../../shared/hooks/useScreenSize";
 import { Project } from "./domain";
 import { ProjectView } from "./Project";
 import { projects } from "./projects";
 
 export const ProjectShowcase = () => {
-  return <SmallScreenShowcase />;
+  const screenSize = useScreenSize();
+  const isSmallScreen = screenSize.width <= 640;
+
+  return isSmallScreen ? <SmallScreenShowcase /> : <DefaultShowcase />;
 };
 
 const SmallScreenShowcase = () => {
@@ -45,4 +49,9 @@ const SmallScreenShowcase = () => {
   );
 };
 
-const DefaultShowcase = () => {};
+const DefaultShowcase = () => {
+  const projectMap = projects.map((project) => (
+    <ProjectView key={project.id} {...project} />
+  ));
+  return <>{projectMap}</>;
+};

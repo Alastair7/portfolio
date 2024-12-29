@@ -5,7 +5,7 @@ export const projects: Project[] = [
     id: 1,
     name: "nknown",
     description: "Integrated terminal AI",
-    stack: ["python"],
+    stack: ["Python"],
     date: 1734998410,
   },
   {

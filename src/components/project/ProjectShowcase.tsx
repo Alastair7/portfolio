@@ -42,9 +42,16 @@ const SmallScreenShowcase = () => {
 
   return (
     <div>
-      <button onClick={onNextClick}>Next</button>
       <ProjectView {...project} />
-      <button onClick={onPrevClick}>Prev</button>
+
+      <div className="flex justify-around gap-3 mt-2">
+        <button className="text-white" onClick={onPrevClick}>
+          Prev
+        </button>
+        <button className="text-white" onClick={onNextClick}>
+          Next
+        </button>
+      </div>
     </div>
   );
 };

@@ -1,14 +1,11 @@
 import "./App.css";
 import { ProfileHeader } from "./components/profile/ProfileHeader";
-import { Project } from "./components/project/Project";
-import projects from "./components/project/projects.json";
+import { ProjectShowcase } from "./components/project/ProjectShowcase";
 function App() {
-  const projectList = projects;
-  const project = projectList.map((p) => <Project {...p} />);
   return (
     <>
       <ProfileHeader />
-      <div className="flex">{project}</div>
+      <ProjectShowcase />
     </>
   );
 }

@@ -1,6 +1,9 @@
 import Avatar from "../../assets/images/avatar.png";
+import { useWorkExperience } from "../../shared/hooks/useWorkExperience";
 
 export const ProfileHeader = () => {
+  const workExperience = useWorkExperience();
+
   return (
     <>
       <div className="flex justify-center">
@@ -10,7 +13,7 @@ export const ProfileHeader = () => {
       <div className="flex flex-col items-center -space-y-1">
         <h1 className="text-lg text-white">Alexandru Ban</h1>
         <span className="text-zinc-400 text-xs tracking-tighter ">
-          3 years of experience
+          {workExperience}
         </span>
       </div>
 

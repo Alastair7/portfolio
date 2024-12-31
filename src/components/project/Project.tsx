@@ -13,7 +13,9 @@ export const ProjectView = (project: Project) => {
         <p className="text-center text-sm text-balance h-10">
           {project.stack.join(", ")}
         </p>
-        <p className="text-end text-xs">{project.date}</p>
+        <p className="text-end text-xs text-neutral-300">
+          {new Date(project.date).toLocaleDateString()}
+        </p>
       </div>
     </div>
   );

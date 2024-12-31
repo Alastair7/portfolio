@@ -6,7 +6,7 @@ export const projects: Project[] = [
     name: "nknown",
     description: "Integrated terminal AI",
     stack: ["Python"],
-    date: 1734998410,
+    date: 1734998410000,
   },
   {
     id: 2,
@@ -20,13 +20,13 @@ export const projects: Project[] = [
       "Firebase Auth",
       "Firebase Database",
     ],
-    date: 1734998410,
+    date: 1734998410000,
   },
   {
     id: 3,
     name: "xenopedia",
     description: "Mobile APP to store copy-pastes that are hilarious.",
     stack: ["Kotlin, Android Studio"],
-    date: 1734998410,
+    date: 1734998410000,
   },
 ];

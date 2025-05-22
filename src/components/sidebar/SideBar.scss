@@ -16,10 +16,9 @@
   }
 
   &__social {
-    border: 1px solid blue;
-    margin-top: 0.45rem;
     display: flex;
     justify-content: center;
-    gap: 1.25rem;
+    border: 1px solid blue;
+    gap: 2rem;
   }
 }

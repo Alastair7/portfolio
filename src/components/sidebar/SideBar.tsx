@@ -7,12 +7,11 @@ export const SideBar = () => {
     <header className="header">
       <div className="header__title">
         <h1>Alexandru Ban</h1>
-        <h2>@Alastair7</h2>
+        <h2>Software Engineer</h2>
       </div>
       <div className="header__social">
-        <LinkButton icon={GithubIcon} title="Twitch" />
-        <LinkButton icon={GithubIcon} title="Github" />
-        <LinkButton icon={GithubIcon} title="Linkedn" />
+        <LinkButton href="https://github.com/Alastair7" icon={GithubIcon} title="@Alastair7" />
+        <LinkButton icon={GithubIcon} title="Alexandru Ban" />
       </div>
     </header>
   );

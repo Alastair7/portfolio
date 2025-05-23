@@ -15,7 +15,7 @@ export const SideBar = () => {
           href="https://github.com/Alastair7"
           target="_blank"
           icon={GithubIcon}
-          title="@Alastair7"
+          title="Alastair7"
         />
         <LinkButton
           href="https://linkedin.com/in/alexandru-ban"

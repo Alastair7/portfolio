@@ -8,16 +8,32 @@
 
   @include bp.sm {
     flex-direction: row;
+    gap: 0.5em;
   }
 
   &__title {
     margin-left: 0.5rem;
   }
 
+  &:visited {
+    color: inherit;
+  }
+
   &:hover {
     font-weight: bold;
     color: whitesmoke;
   }
+
+  &:focus {
+    font-weight: bold;
+  }
+
+  &:active {
+    color: #DDDDDD;
+  }
+
+
+
 
   &__icon {
     width: 2.5em;

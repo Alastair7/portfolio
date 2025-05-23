@@ -1,4 +1,8 @@
+@use "../../breakpoints.scss" as bp;
+
 .header {
+  padding: 0.5em;
+
   &__title {
     display: flex;
     flex-direction: column;
@@ -10,6 +14,27 @@
 
     h2 {
       font-size: 1em;
+      color: #7F8CAA;
+    }
+
+    @include bp.sm {
+      h1 {
+        font-size: 2.5em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  @include bp.lg {
+    h1 {
+      font-size: 3em;
+    }
+
+    h2 {
+      font-size: 2em;
     }
   }
 
@@ -17,6 +42,6 @@
     margin-top: 0.75rem;
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 5em;
   }
 }

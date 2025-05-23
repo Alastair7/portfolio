@@ -1,6 +1,4 @@
 .header {
-  border: 1px solid red;
-
   &__title {
     display: flex;
     flex-direction: column;
@@ -16,9 +14,9 @@
   }
 
   &__social {
+    margin-top: 0.75rem;
     display: flex;
     justify-content: center;
-    border: 1px solid blue;
-    gap: 2rem;
+    gap: 5rem;
   }
 }

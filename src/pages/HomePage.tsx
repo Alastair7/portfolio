@@ -1,9 +1,11 @@
-import { SideBar } from '../components/sidebar/SideBar';
+import { About } from '../components/about/About';
+import { HeaderInfo } from '../components/header/HeaderInfo';
 
 export const HomePage = () => {
   return (
     <div>
-      <SideBar />
+      <HeaderInfo />
+      <About />
     </div>
   );
 };

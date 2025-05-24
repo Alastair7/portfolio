@@ -1,9 +1,9 @@
-import './SideBar.scss';
+import './HeaderInfo.scss';
 import GithubIcon from '../../assets/icons/github.svg?react';
 import LinkednIcon from '../../assets/icons/linkedn.svg?react';
 import { LinkButton } from '../../shared/buttons/LinkButton';
 
-export const SideBar = () => {
+export const HeaderInfo = () => {
   return (
     <header className="header">
       <div className="header__title">

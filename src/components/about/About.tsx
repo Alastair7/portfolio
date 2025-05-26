@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import './About.scss';
 import { Terminal, type TerminalCommand } from '../terminal/Terminal';
 import { getProfessionalExperience } from './utils';
@@ -6,13 +5,8 @@ import { getProfessionalExperience } from './utils';
 const workingStartDate = new Date(2021, 0, 11);
 
 export const About = () => {
-  const [experience, setExperience] = useState<string>('');
   const aboutInfo: Map<TerminalCommand, string> = new Map();
-
-  useEffect(() => {
-    const experience = getProfessionalExperience(workingStartDate);
-    setExperience(experience);
-  }, []);
+  const experience = getProfessionalExperience(workingStartDate);
 
   aboutInfo.set(
     'info',

@@ -1,0 +1,17 @@
+   [
+      {
+	 "id": 1,
+	 "name": "Gonverter",
+	 "description":"Image to PDF converter bult with Golang.",
+	 "image":"",
+	 "stack": ["go", "react", "typescript"]
+      },
+      {
+	 "id": 2,
+	 "name": "Shopper",
+	 "description":"Mobile application that manage lists between users.",
+	 "image":"",
+	 "stack": ["android_studio", "kotlin", "firebase"]
+      }
+   ]
+

@@ -2,6 +2,7 @@ import { About } from '../components/about/About';
 import { HeaderInfo } from '../components/header/HeaderInfo';
 import type { Project } from '../components/project/domain';
 import { ProjectFooter } from '../components/project/ProjectFooter';
+import './HomePage.scss';
 
 type Props = {
   projects?: Project[];
@@ -11,7 +12,7 @@ export const HomePage = ({ projects }: Props) => {
     <div>
       <HeaderInfo />
       <About />
-      <h1>Projects</h1>
+      <h2>My Work</h2>
       <ProjectFooter projects={projects ?? []} />
     </div>
   );

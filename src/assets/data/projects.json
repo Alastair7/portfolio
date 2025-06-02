@@ -1,17 +1,26 @@
    [
-      {
-	 "id": 1,
-	 "name": "Gonverter",
-	 "description":"Image to PDF converter bult with Golang.",
-	 "image":"",
-	 "stack": ["go", "react", "typescript"]
-      },
-      {
-	 "id": 2,
-	 "name": "Shopper",
-	 "description":"Mobile application that manage lists between users.",
-	 "image":"",
-	 "stack": ["android_studio", "kotlin", "firebase"]
-      }
-   ]
+  {
+    "id": 1,
+    "name": "Gonverter",
+    "description": "Image to PDF converter built with Golang.",
+    "image": "",
+    "stack": [
+      { "id": "golang", "name": "Go", "path": "./src/assets/icons/golang.svg" },
+      { "id": "react", "name": "React", "path": "./src/assets/icons/react.svg" },
+      { "id": "typescript", "name": "Typescript", "path": "./src/assets/icons/typescript.svg" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Shopper",
+    "description": "Mobile application that manages lists between users.",
+    "image": "",
+    "stack": [
+      { "id": "android_studio", "name": "Android Studio", "path": "./src/assets/icons/android.svg" },
+      { "id": "kotlin", "name": "Kotlin", "path": "./src/assets/icons/kotlin.svg" },
+      { "id": "firebase", "name": "Firebase", "path": "./src/assets/icons/firebase.svg" }
+    ]
+  }
+]
+
 

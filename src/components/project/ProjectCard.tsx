@@ -6,7 +6,9 @@ type Props = {
   projectDetails: Project;
 };
 export const ProjectCard = ({ projectDetails }: Props) => {
-  const stack = projectDetails.stack.map((techStack) => <p>{techStack}</p>);
+  const stack = projectDetails.stack.map((techStack) => (
+    <img key={techStack.id} src={techStack.path} alt={techStack.name} />
+  ));
 
   return (
     <div className="card">

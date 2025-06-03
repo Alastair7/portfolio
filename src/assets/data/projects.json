@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Gonverter",
+    "url": "",
     "description": "Image to PDF converter built with Golang.",
     "image": "",
     "stack": [
@@ -12,6 +13,7 @@
   },
   {
     "id": 2,
+    "url": "",
     "name": "Shopper",
     "description": "Mobile application that manages lists between users.",
     "image": "",
@@ -19,6 +21,17 @@
       { "id": "android_studio", "name": "Android Studio", "path": "./src/assets/icons/android.svg" },
       { "id": "kotlin", "name": "Kotlin", "path": "./src/assets/icons/kotlin.svg" },
       { "id": "firebase", "name": "Firebase", "path": "./src/assets/icons/firebase.svg" }
+    ]
+  },
+  {
+    "id": 3,
+    "url": "",
+    "name": "Xenopedia",
+    "description": "Mobile application that manages funny copy-pastes.",
+    "image": "",
+    "stack": [
+      { "id": "android_studio", "name": "Android Studio", "path": "./src/assets/icons/android.svg" },
+      { "id": "kotlin", "name": "Kotlin", "path": "./src/assets/icons/kotlin.svg" }
     ]
   }
 ]

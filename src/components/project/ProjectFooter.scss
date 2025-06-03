@@ -1,6 +1,8 @@
 .project-footer {
-  margin-top: 0.5rem;
   display: flex;
-  gap: 1rem;
+  flex-wrap: nowrap;
+  padding: 0 1rem;
   overflow-x: scroll;
+  gap: 1rem;
+  margin-top: 0.5rem;
 }

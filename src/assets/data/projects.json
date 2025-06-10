@@ -1,7 +1,7 @@
    [
   {
     "id": 1,
-    "name": "Gonverter",
+    "name": "GONVERTER",
     "url": "",
     "description": "Image to PDF converter built with Golang.",
     "image": "",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "url": "",
-    "name": "Shopper",
+    "name": "SHOPPER",
     "description": "Mobile application that manages lists between users.",
     "image": "",
     "stack": [
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "url": "",
-    "name": "Xenopedia",
+    "name": "XENOPEDIA",
     "description": "Mobile application that manages funny copy-pastes.",
     "image": "",
     "stack": [
@@ -37,34 +37,41 @@
   {
     "id": 4,
     "url": "",
-    "name": "Xenopedia",
-    "description": "Mobile application that manages funny copy-pastes.",
+    "name": "NKNOWN AI",
+    "description": "Integrated AI model into a terminal. It does not use emojis because of an infinite loop.",
     "image": "",
     "stack": [
-      { "id": "android_studio", "name": "Android Studio", "path": "./src/assets/icons/android.svg" },
-      { "id": "kotlin", "name": "Kotlin", "path": "./src/assets/icons/kotlin.svg" }
+      { "id": "python", "name": "Python", "path": "./src/assets/icons/python.svg" }
     ]
   },
   {
     "id": 5,
     "url": "",
-    "name": "Xenopedia",
-    "description": "Mobile application that manages funny copy-pastes.",
+    "name": "HUO",
+    "description": "Multi-purpose discord bot that can play music, moderate and send welcome messages.",
     "image": "",
     "stack": [
-      { "id": "android_studio", "name": "Android Studio", "path": "./src/assets/icons/android.svg" },
-      { "id": "kotlin", "name": "Kotlin", "path": "./src/assets/icons/kotlin.svg" }
+      { "id": "python", "name": "Python", "path": "./src/assets/icons/python.svg" }
     ]
   },
   {
     "id": 6,
     "url": "",
-    "name": "Xenopedia",
-    "description": "Mobile application that manages funny copy-pastes.",
+    "name": "NVIM CONFIG",
+    "description": "My neovim configuration.",
     "image": "",
     "stack": [
-      { "id": "android_studio", "name": "Android Studio", "path": "./src/assets/icons/android.svg" },
-      { "id": "kotlin", "name": "Kotlin", "path": "./src/assets/icons/kotlin.svg" }
+      { "id": "lua", "name": "Lua", "path": "./src/assets/icons/lua.svg" }
+    ]
+  },
+  {
+    "id": 7,
+    "url": "",
+    "name": "GGTIME API",
+    "description": "GGTime is an application that helps users optimize their available free time for gaming by selecting the best option based on the time they have.",
+    "image": "",
+    "stack": [
+      { "id": "golang", "name": "Go", "path": "./src/assets/icons/golang.svg" }
     ]
   }
 ]

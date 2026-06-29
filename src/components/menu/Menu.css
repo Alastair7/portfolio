@@ -1,0 +1,9 @@
+.menu {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+}
+
+.menu__item {
+	font-size: 16pt;
+}

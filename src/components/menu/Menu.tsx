@@ -1,11 +1,10 @@
+import { Link } from "react-router"
 import "./Menu.css"
 
 export const Menu = () => {
-  return <nav>
-    <ul className="menu">
-      <li className="menu__item"><a href="../../pages/About.tsx">About</a></li>
-      <li className="menu__item">Contact</li>
-      <li className="menu__item">Projects</li>
-    </ul>
+  return <nav className="menu">
+    <Link className="menu__item" to={"/"}>Home</Link>
+    <Link className="menu__item" to={"/about"}>About</Link>
+    <Link className="menu__item" to={"/projects"}>Projects</Link>
   </nav>
 }

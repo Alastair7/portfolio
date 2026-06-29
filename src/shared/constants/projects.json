@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Notes Improver",
+    "description": "Convert into markdown and improve raw and quick notes using AI.",
+    "status": "COMPLETED"
+  },
+  {
+    "id": 2,
+    "name": "Gonverter",
+    "description": "Convert an image into PDF document.",
+    "status": "COMPLETED"
+  },
+  {
+    "id": 3,
+    "name": "LibCrypt",
+    "description": "Execute scripts from a TUI.",
+    "status": "COMPLETED"
+  },
+  {
+    "id": 4,
+    "name": "BotAntoo",
+    "description": "Discord Bot",
+    "status": "IN_PROGRESS"
+  },
+  {
+    "id": 5,
+    "name": "GGTime",
+    "description": "Game recommender.",
+    "status": "IN_PROGRESS"
+  }
+]

@@ -1,0 +1,13 @@
+.project {
+	border: 1px solid white;
+	padding: 1rem;
+}
+
+.project__title {
+	font-size: 18pt;
+}
+
+.project__thumbnail {
+	width: 4.5em;
+	height: 4.5em;
+}

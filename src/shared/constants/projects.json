@@ -2,31 +2,31 @@
   {
     "id": 1,
     "name": "Notes Improver",
-    "description": "Convert into markdown and improve raw and quick notes using AI.",
+    "description": "Improve raw txt notes to structured markdown notes using AI.",
     "status": "COMPLETED"
   },
   {
     "id": 2,
     "name": "Gonverter",
-    "description": "Convert an image into PDF document.",
+    "description": "Convert images into PDF document. For FREE.",
     "status": "COMPLETED"
   },
   {
     "id": 3,
     "name": "LibCrypt",
-    "description": "Execute scripts from a TUI.",
+    "description": "Execute python scripts built with click from a TUI.",
     "status": "COMPLETED"
   },
   {
     "id": 4,
-    "name": "BotAntoo",
-    "description": "Discord Bot",
+    "name": "Shopper",
+    "description": "Shared notes to do grocery shopping.",
     "status": "IN_PROGRESS"
   },
   {
     "id": 5,
     "name": "GGTime",
-    "description": "Game recommender.",
+    "description": "Recommend a videogame based on your preferences.",
     "status": "IN_PROGRESS"
   }
 ]

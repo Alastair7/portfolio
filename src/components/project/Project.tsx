@@ -30,6 +30,7 @@ export const ProjectPreview = ({
     </div>
     <div className="project__details">
       <p className="project__description">{description}</p>
+      <br />
       <p className="project__status">{status}</p>
     </div>
   </div >

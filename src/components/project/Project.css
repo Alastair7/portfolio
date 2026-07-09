@@ -1,6 +1,7 @@
 .project {
 	border: 1px solid white;
 	padding: 1rem;
+	text-align: center;
 }
 
 .project__title {
@@ -8,6 +9,7 @@
 }
 
 .project__thumbnail {
+	margin: 0 auto;
 	width: 4.5em;
 	height: 4.5em;
 }
